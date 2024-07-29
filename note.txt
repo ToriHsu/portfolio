@@ -1,0 +1,9 @@
+ICON Circle : line 2473
+
+FOOTER Color : line 3535
+
+HEADER (for other pages) and DROPDOWN : line 3316
+
+BANNER (first page) : line 3474-3477
+
+Page Background : line 86
