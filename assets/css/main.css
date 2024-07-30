@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #f2e2d4;
+		background: #E3D2B8;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgba(0, 0, 0, 0.75);
+		color: #000000bf;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #E6A94F; /* YOU CAN CALL ME TORI COLOR */
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2469,8 +2469,9 @@ input, select, textarea {
 				text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
 			}
 
+			/* ICON CIRCLE COLOR */
 		.icon.major {
-			background: #f2e2d4;
+			background: #4f29e8;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -3083,7 +3084,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(16, 206, 158, 0.932);
+			background: #E3D2B8;/* ABOUT ME BACKGROUND COLOR */
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3367,14 +3368,14 @@ input, select, textarea {
 		margin-top: 0;
 	}
 
-/* Header */
+/* VIDEOGRAPHY Header */
 
 	#page-wrapper {
 		padding-top: 3.5em;
 	}
 
 	#header {
-		background: #ba6832;
+		background: #384636;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3430,7 +3431,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #ffffff;
 					}
 
 					#header nav ul li > ul {
@@ -3470,11 +3471,12 @@ input, select, textarea {
 			width: 1%;
 		}
 
+		/* BANNER BACKGROUND */ 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(16, 206, 158, 0.932), rgba(16, 206, 158, 0.932)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(16, 206, 158, 0.932), rgba(16, 206, 158, 0.932)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(16, 206, 158, 0.932), rgba(16, 206, 158, 0.932)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(16, 206, 158, 0.932), rgba(16, 206, 158, 0.932)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, #384636, #384636), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, #384636, #384636), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, #384636, #384636), url("images/overlay.png");;
+			background-image: linear-gradient(top, #384636, #384636), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3532,7 +3534,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #b3873d;
+		background: #E3D2B8;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3560,7 +3562,7 @@ input, select, textarea {
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: #384636;
 			font-size: 0.8em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
@@ -3569,7 +3571,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.3);
+				border-left: solid 1px #384636;
 				display: inline-block;
 				list-style: none;
 				margin-left: 1.5em;
@@ -3892,7 +3894,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					color: #000000;
+					color: #faf3f3;
 					display: block;
 					font-weight: 300;
 					height: 44px;
