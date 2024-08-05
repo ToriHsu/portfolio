@@ -133,8 +133,8 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #E6A94F; /* YOU CAN CALL ME TORI COLOR */
+	h1, {
+		color: #E6A94F; 
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -149,26 +149,46 @@ input, select, textarea {
 		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
+		color: #E6A94F; /* YOU CAN CALL ME TORI COLOR */
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
 	}
 
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
+		color: #f7f3ec; 
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
 	}
 
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+		color: #E6A94F; 
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
 	}
 
 	h5 {
 		font-size: 0.9em;
 		line-height: 1.5em;
+		color: #E6A94F; 
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
 	}
 
 	h6 {
 		font-size: 0.7em;
 		line-height: 1.5em;
+		color: #E6A94F; 
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
 	}
 
 	sub {
@@ -593,7 +613,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #b3873d;
+			/* background: #0b0b0b; /* SPLASH COLOR */
 			content: '';
 			display: block;
 			height: 100%;
@@ -603,7 +623,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			z-index: -1;
-		}
+		} 
 
 		body.landing.is-preload:before {
 			-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
@@ -620,7 +640,7 @@ input, select, textarea {
 			animation: none !important;
 			opacity: 1;
 			z-index: 100000;
-		}
+		} 
 
 	@media (-webkit-min-device-pixel-ratio: 2) {
 
@@ -3084,7 +3104,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: #E3D2B8;/* ABOUT ME BACKGROUND COLOR */
+			background: #384636;/* ABOUT ME BACKGROUND COLOR */
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3202,7 +3222,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background:  #e44c65;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3894,7 +3914,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					color: #faf3f3;
+					color: #efe2e2;
 					display: block;
 					font-weight: 300;
 					height: 44px;
