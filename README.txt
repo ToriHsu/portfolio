@@ -109,7 +109,6 @@ Instructions:
 		You can also just remove the "from-(direction)" class if you don't want that particular
 		image to slide into view (in which case it'll simply fade in).
 
-
 	Contact Form:
 
 		To get this working, place a script on your server to receive the form data, then
