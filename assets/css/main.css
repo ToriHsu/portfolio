@@ -2105,7 +2105,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.main > .content br {
-				display: none;
+				display: flex;
 			}
 
 			.main.fullscreen {
@@ -2125,11 +2125,11 @@ input, select, textarea {
 			}
 
 				.main.style2:before, .main.style2:after {
-					display: none !important;
+					display: flex !important;
 				}
 
 				.main.style2 .button.anchored {
-					display: none;
+					display: flex;
 				}
 
 				.main.style2 .content {
@@ -2521,7 +2521,7 @@ input, select, textarea {
 	align-self: center;
 }
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 100px) {
 	#header {
 		position: fixed;
 		z-index: 10000;
@@ -2553,6 +2553,7 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 3em;
+			display: flex;
 		}
 
 			#header nav ul {
