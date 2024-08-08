@@ -1875,7 +1875,7 @@ input, select, textarea {
 						text-decoration: none;
 						height: 3em;
 						line-height: 3em;
-						padding: 10px 10px 10px 10px;
+						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 					}
 
@@ -2516,7 +2516,69 @@ input, select, textarea {
 
 #header img { /* Logo */
 	height: 80%;
-	width: fit-content;
+	width: auto;
 	padding: 0 20px;
 	align-self: center;
+}
+
+@media only screen and (min-width: 641px) {
+	#header {
+		position: fixed;
+		z-index: 10000;
+		left: 0;
+		top: 0;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		height: 3em;
+		line-height: 3em;
+		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+	}
+
+		#header h1 {
+			position: absolute;
+			left: 1em;
+			top: 0;
+			height: 3em;
+			line-height: 3em;
+			cursor: default;
+		}
+
+			#header h1 a {
+				font-size: 1.25em;
+			}
+
+		#header nav {  /* NAVIGATION */
+			position: absolute;
+			right: 20px;
+			top: 0;
+			height: 3em;
+			line-height: 3em;
+		}
+
+			#header nav ul {
+				margin: 0;
+			}
+
+				#header nav ul li {
+					display: inline-block;
+					margin-left: 0.5em;
+					font-size: 0.9em;
+				}
+
+					#header nav ul li a {
+						display: block;
+						color: inherit;
+						text-decoration: none;
+						height: 3em;
+						line-height: 3em;
+						padding: 0 0.5em 0 0.5em;
+						outline: 0;
+					}
+	
+					#header img { /* Logo */
+						height: 80%;
+						width: auto; 
+						padding: 0 20px;
+						align-self: center;
+					}
 }
