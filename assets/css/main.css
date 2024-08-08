@@ -2105,7 +2105,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.main > .content br {
-				display: flex;
+				display: flex; 
 			}
 
 			.main.fullscreen {
@@ -2129,7 +2129,7 @@ input, select, textarea {
 				}
 
 				.main.style2 .button.anchored {
-					display: flex;
+					display: flex; /* Page 2 Arrow showing for smaller screen */
 				}
 
 				.main.style2 .content {
